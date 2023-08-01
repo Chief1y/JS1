@@ -163,7 +163,7 @@ more.addEventListener('click', () => {
 
 function search(target) {
     gapi.client.init({
-        'apiKey': 'AIzaSyBEeFE8hHZ7NN72r-b3rvmbGibmmWSUOOc',
+        'apiKey': 'APINEEDED',//change to real api
         'discoveryDocs': ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"]
     }).then(function() {
         return gapi.client.youtube.search.list({
